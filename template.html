@@ -1,0 +1,9 @@
+<template name="Notify">
+  {{#if size}}
+    <div class="notify-container">
+      {{#each notifications}}
+        {{> NotifyNotification}}
+      {{/each}}
+    </div>
+  {{/if}}
+</template>
