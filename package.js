@@ -1,10 +1,10 @@
 Package.describe({
   name: 'atomic:notify',
-  version: '0.5.0',
+  version: '1.0.1',
   // Brief, one-line summary of the package.
   summary: 'Display notifications in a notifications bar.',
   // URL to the Git repository containing the source code for this package.
-  git: '',
+  git: 'https://github.com/meteor-atomic/atomic-notify',
   // By default, Meteor will default to using README.md for documentation.
   // To avoid submitting documentation, set this field to null.
   documentation: 'README.md'
