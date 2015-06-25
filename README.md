@@ -4,6 +4,9 @@ Notify is a a simple and lightweight meteor package that allows
 you to create self-dismissing notifications that span the top of 
 your meteor application.
 
+## Demo
+Here's a very basic [demo application](http://notify-demo.meteor.com/).
+
 ## Installation
 
 ```shell
