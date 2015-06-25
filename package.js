@@ -17,14 +17,13 @@ Package.onUse(function(api) {
   api.use('templating');
   api.use('reactive-dict');
 
-  // Export the files
-  api.addFiles('notify.js',     ["client"]);
-  api.addFiles('template.html', ["client"]);
-  api.addFiles('template.js',   ["client"]);
-  api.addFiles('template.css',  ["client"]);
-
-  api.addFiles('notification.html', ["client"]);
-  api.addFiles('notification.js',   ["client"]);
+  // Add the files
+  api.addFiles('client/notify.js',         ["client"]);
+  api.addFiles('client/template.html',     ["client"]);
+  api.addFiles('client/template.js',       ["client"]);
+  api.addFiles('client/template.css',      ["client"]);
+  api.addFiles('client/notification.html', ["client"]);
+  api.addFiles('client/notification.js',   ["client"]);
 
   // Export
   api.export("Notify");
