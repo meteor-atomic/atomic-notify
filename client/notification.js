@@ -3,7 +3,7 @@
  */
 Template.NotifyNotification.created = function(e, template) {
   var id = this.data._id;
-  console.log(this);
+
   /**
    * Setup a close timer
    */
