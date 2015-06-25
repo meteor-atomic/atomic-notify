@@ -13,8 +13,7 @@ meteor add atomic:notify
 ## Example
 ```js
 Meteor.call("saveProfile", function(err, result){
-  if(err)
-    return Notify.exception(err);
+  if(err) return Notify.exception(err);
 
   // Process result.  
 })
